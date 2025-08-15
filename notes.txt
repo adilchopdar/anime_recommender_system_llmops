@@ -1,0 +1,13 @@
+## Tech stack
+
+- Groq -> LLM
+- Huggingface -> Embedding model
+- Langchain -> Generative AI framework to interact with LLM
+- GCP VM -> Virtual machine that can be accessed on cloud. It's a service offered by Google cloud
+- Minikube -> For making a kubernetes cluster where we can deploy our application
+- Streamlit -> To make UI or frontend of the app
+- Docker -> For containerization of the app during deployment
+- Grafana Cloud -> Monitoring kubernetes cloud
+- Chroma DB -> Local vector store for storing Embedding
+- kubectl -> Command line interface to interact with kubernetes
+- Github -> It will work as SCM (source code management) for your project.
