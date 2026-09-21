@@ -3,10 +3,12 @@ from setuptools import setup, find_packages
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
+
 setup(
-    name = 'ANIME_RECOMMENDER',
-    version='0.1',
-    author='Adil',
+    name = 'ANIME-RECOMMENDER',
+    version = '0.1',
+    authors = 'Adil',
     packages = find_packages(),
-    install_requires = requirements
+    install_requires= requirements
+
 )

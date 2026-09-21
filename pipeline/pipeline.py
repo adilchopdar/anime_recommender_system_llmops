@@ -24,7 +24,7 @@ class AnimeRecommendationPipeline:
         try:
             logger.info(f'Recieved a query {query}')
             recommendation = self.recommender.get_recommendation(query)
-            logger.info('Recommendation gerated successfully...')
+            logger.info('Recommendation generated successfully...')
             return recommendation
         except Exception as e:
             logger.error(f'Failed to get recommendation {str(e)}')
